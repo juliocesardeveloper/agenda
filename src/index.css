@@ -4,16 +4,25 @@
 }
 
 body {
+  
   padding: 60px;
+}
+
+.search-bar-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 input {
   border-radius: 50px;
   color: gray;
   font-size: 1.2rem;
+  margin-bottom: 50px;
   outline: none;
   padding: 5px 20px;
-  width: 100%;
+  width: 500px;
 }
 
 .card-grid {

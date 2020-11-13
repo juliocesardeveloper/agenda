@@ -8,8 +8,10 @@ export const AgendApp = () => {
 
   return (
     <>
-      <h1>AgendApp</h1>
-      <AddContact setContacts={ setContacts } />
+      <div className="search-bar-section">
+        <h1>AgendApp</h1>
+        <AddContact setContacts={ setContacts } />
+      </div>
       <hr/>
       <ol>
         {
