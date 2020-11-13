@@ -6,7 +6,6 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
-    "json-loader": "^0.5.7",
     "json-server": "^0.16.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
@@ -39,8 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "webpack": "^5.4.0",
-    "webpack-cli": "^4.2.0"
-  }
+  "devDependencies": {}
 }
