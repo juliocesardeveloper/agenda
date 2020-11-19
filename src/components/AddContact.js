@@ -5,6 +5,7 @@ export const AddContact = ({ setContacts }) => {
 
   const [inputValue, setInputValue] = useState('');
 
+
   const handleInputChange = ( e ) => {
     setInputValue( e.target.value );
   }
@@ -13,7 +14,7 @@ export const AddContact = ({ setContacts }) => {
     e.preventDefault();
 
     if (inputValue.trim().length > 2) {
-      setContacts( cntcts => [ inputValue, ...cntcts ] );
+      setContacts( cntcts => inputValue ? [inputValue] : [...cntcts] );
       setInputValue('');
     }
   }

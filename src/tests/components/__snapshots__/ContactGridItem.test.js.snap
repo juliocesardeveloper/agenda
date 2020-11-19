@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en ContactGridItem Debe mostrar el componente correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img />
+  <h2>
+     
+     
+  </h2>
+  <p>
+     
+    <b>
+      Email:
+    </b>
+     
+     
+  </p>
+  <p>
+     
+    <b>
+      Phone:
+    </b>
+     
+     
+  </p>
+</div>
+`;

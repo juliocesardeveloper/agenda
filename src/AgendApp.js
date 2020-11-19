@@ -6,6 +6,8 @@ export const AgendApp = () => {
 
   const [contacts, setContacts] = useState([''])
 
+  const allContacts = contacts;
+
   return (
     <>
       <div className="search-bar-section">
@@ -15,7 +17,7 @@ export const AgendApp = () => {
       <hr/>
       <ol>
         {
-          contacts.map( contact =>  (
+          allContacts.map( contact =>  (
             <ContactGrid
               key={ contact }
               contact={ contact }
