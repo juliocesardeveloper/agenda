@@ -1,6 +1,6 @@
 export const getContacts = async( contact ) => {
 
-  const url = `http://localhost:3001/contacts?q=${ encodeURI(contact) }`;
+  const url = `https://my-json-server.typicode.com/juliocesardeveloper/demo/contacts?q=${ encodeURI(contact) }`;
   const resp = await fetch( url );
   const data = await resp.json();
 
